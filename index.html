@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,6 +14,14 @@
     <button id="search-button" disabled>Pokémon keresés</button>
     <div id="pokemon-container">
 
+    </div>
+
+    <div>
+        <input type="number" id="pokemon-count" placeholder="Hány pokémont szeretnél?" max="50" min="1" />
+        <button id="get-pokemons" disabled>Lekérdez</button>
+        <div id="pokemons">
+
+        </div>
     </div>
 
 </body>
